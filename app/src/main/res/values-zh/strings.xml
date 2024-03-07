@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">设置</string>
+    <string name="xda_thread_title">XDA</string>
+    <string name="source_code_title">源码</string>
+    <string name="about">关于</string>
+    <string name="disable_charge_now">禁用充电</string>
+    <string name="limit_by_voltage">电压限制</string>
+    <string name="custom_voltage_threshold">设置电压阈值</string>
+    <string name="current_voltage_threshold">当前电压阈值</string>
+    <string name="default_voltage_threshold">默认电压阈值</string>
+    <string name="enable">充电限制</string>
+    <string name="notify">达到限制时通知</string>
+    <string name="limit">上限 %1$d%%</string>
+    <string name="recharge_below">低于%1$d%%时充电</string>
+    <string name="status">状态: </string>
+    <string name="status_ctrl_data_label">配置文件</string>
+    <string name="experimental">实验性的</string>
+    <string name="issues">已知问题</string>
+    <string name="auto_reset_stats">自动重置电池统计数据</string>
+    <string name="reset_stats">重置电池统计数据</string>
+    <string name="disable">禁用</string>
+    <string name="disable_temporarily">暂时禁用</string>
+    <string name="dismiss">关闭通知</string>
+    <string name="open_app">打开APP</string>
+    <string name="file_data">(配置文件放在这里)</string>
+
+    <string name="previously_started">Previously Started</string>
+    <string name="device_not_supported">设备不支持!</string>
+    <string name="ok">OK</string>
+    <string name="no_recharge">没有自动恢复充电</string>
+
+    <string name="charging">正在充电</string>
+    <string name="discharging">关闭充电</string>
+    <string name="full">电量已满</string>
+    <string name="not_charging">电源已断开</string>
+    <string name="unknown">未知</string>
+
+    <string name="please_wait">请稍后…</string>
+    <string name="maintaining_x_to_y">维持电量 %1$d%% - %2$d%%</string>
+    <string name="maintaining_description">断开电源后关闭服务</string>
+    <string name="waiting_until_x">充到 %1$d%%</string>
+    <string name="waiting_description">电量到达限制后停止充电</string>
+    <string name="battery_info_C">电压: %1$.3f V   温度: %2$.1f &#8451;</string>
+    <string name="battery_info_F">电压: %1$.3f V   温度: %2$.1f &#8457;</string>
+
+    <string name="root_denied">未获取到ROOT权限!</string>
+    <string name="stats_reset_success">电池状态重置成功</string>
+
+    <string name="intent_handle_activity">充电限制活动</string>
+    <string name="intent_invalid">无效intent</string>
+    <string name="intent_limit_invalid">无效限制</string>
+    <string name="intent_limit_accepted">充电限制修改为 %1$d%%.</string>
+
+    <string name="service_enabled"> 充电限制服务开启! </string>
+    <string name="service_disabled"> 充电限制服务关闭! </string>
+
+    <string name="main_settings">设置</string>
+    <string name="set_control_file">配置文件</string>
+    <string name="select_control_file">选择配置文件</string>
+    <string name="show_temperature_fahrenheit">使用华氏温度 &#8457;</string>
+    <string name="show_temperature_in_notification">通知里显示温度</string>
+    <string name="enforce_charge_limit">强制充电限制</string>
+    <string name="enforce_charge_limit_desc">强制延迟识别配置文件的修改</string>
+    <string name="always_write_cf">始终写入配置文件</string>
+    <string name="always_write_cf_desc">强制写入配置文件，即使其他地方有修改</string>
+    <string name="help_and_support_title">帮助 &amp; 支持</string>
+
+    <string name="advanced_settings">高级设置</string>
+    <string name="immediate_power_intent_handling">处理所有电源变化事件</string>
+    <string name="immediate_power_intent_handling_desc">实时监听电源变化事件，即使配置文件发生变化。\n仅用于受支持的配置，例如 battery_charging_enabled or store_mode!</string>
+    <string name="disable_auto_recharge"> 关闭自动恢复充电</string>
+    <string name="disable_auto_recharge_desc">实验性：打开这个选项时达到充电限制后也会隐藏通知。 重要提示：卸载前禁用此选项或卸载后重新启动</string>
+
+    <string name="hide_toast_on_service_change">隐藏服务变化提示</string>
+    <string name="help_desc">如果遇到问题后可以在GitHub提交issue或者在XDA寻找信息</string>
+
+    <string name="control_file_settings">配置文件</string>
+    <string name="current_ctrl_data_title">当前配置文件</string>
+    <string name="control_file_option_summary_on">使用自定义配置文件</string>
+    <string name="control_file_option_summary_off">使用默认配置文件</string>
+    <string name="control_file_alert_title">仅限高级用户!</string>
+    <string name="control_file_alert_desc">警告: 在不知道您要更改的内容的情况下修改此部分可能会导致您的设备出现不可预见的问题。重启设备通常可以解决很多问题，但是！有些问题可能并不那么容易解决。请慎重!</string>
+    <string name="control_understand">了解</string>
+    <string name="control_file_heads_up_title">配置文件信息</string>
+    <string name="control_file_heads_up_desc">如果设备检测到配置文件则表明配置可用，也应该可以给其他设备使用。在 GitHub 上为您的设备提交issue或者发起pr，并将控制文件数据添加到此列表中。</string>
+
+    <string name="custom_ctrl_file_data_title">自定义配置文件</string>
+    <string name="custom_ctrl_file_data_setup_title">修改配置</string>
+    <string name="custom_ctrl_file_path_title">设置文件路径</string>
+    <string name="custom_ctrl_file_path_hint">/sys/folder/folder/desired_file</string>
+    <string name="custom_ctrl_file_enabled_title">启用 Value</string>
+    <string name="custom_ctrl_file_enabled_hint">1, 启用, 期望值</string>
+    <string name="custom_ctrl_file_disabled_title">禁用 Value</string>
+    <string name="custom_ctrl_file_disabled_hint">0, 禁用, 期望值</string>
+    <string name="custom_ctrl_file_updated_info">修改信息后会在此处更新</string>
+    <string name="custom_ctrl_file_heads_up">如果您遇到应用程序崩溃或服务无法正常工作的问题，请尝试在设置中启用“始终写入配置文件”。不保证此可配置控制文件功能将支持所有设备和文件/值。如果出现问题，请尝试调整设置或确保数据正确。</string>
+    <string name="custom_ctrl_file_update_data">更新配置文件</string>
+
+    <string name="theme">主题</string>
+    <string name="light">亮</string>
+    <string name="dark">暗</string>
+    <string name="black">黑 - AMOLED</string>
+</resources>
