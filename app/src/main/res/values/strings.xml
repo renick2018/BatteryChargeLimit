@@ -11,6 +11,8 @@
     <string name="disable_charge_now">Disable charge now</string>
     <string name="limit_by_voltage">Limit by voltage</string>
     <string name="custom_voltage_threshold">Custom Voltage threshold</string>
+    <string name="current_voltage_threshold">Current Voltage Threshold</string>
+    <string name="default_voltage_threshold">Default Voltage Threshold</string>
     <string name="enable">Enable charge limit</string>
     <string name="notify">Notify when limit is reached</string>
     <string name="limit">Limit charging to %1$d%%</string>
